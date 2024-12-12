@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 @Data
 @Entity
 @Table(name = "eventos")
-public class Evento {
+public class Eventos {
 
     private static final long serialVersionUID = 1L;
 

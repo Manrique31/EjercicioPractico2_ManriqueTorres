@@ -1,11 +1,13 @@
 package examen.demo.dao;
 
 
+
 import org.springframework.data.jpa.repository.JpaRepository;
-import examen.demo.domain.Evento;
+import examen.demo.domain.Usuario;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface EventoRepository extends JpaRepository<Evento, Long> {
-    
+public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+   
 }
+
